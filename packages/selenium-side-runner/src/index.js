@@ -32,7 +32,7 @@ import Config from "./config";
 import Satisfies from "./versioner";
 import metadata from "../package.json";
 
-const DEFAULT_TIMEOUT = 15000;
+const DEFAULT_TIMEOUT = 150000;
 
 process.title = metadata.name;
 
